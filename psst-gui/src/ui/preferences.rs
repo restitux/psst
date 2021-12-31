@@ -206,7 +206,7 @@ fn account_tab_widget(tab: AccountTab) -> impl Widget<AppState> {
 
     col = col
         .with_child(
-            TextBox::new()
+            TextBox::protected()
                 .with_placeholder("Password")
                 .controller(InputController::new())
                 .env_scope(|env, _| env.set(theme::WIDE_WIDGET_WIDTH, theme::grid(16.0)))

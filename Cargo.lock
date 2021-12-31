@@ -639,7 +639,7 @@ checksum = "bd0c93bb4b0c6d9b77f4435b0ae98c24d17f1c45b2ff844c6151a07256ca923b"
 [[package]]
 name = "druid"
 version = "0.7.0"
-source = "git+https://github.com/jpochyla/druid?branch=psst#625374b59c3772152045528c4914d3b3be0e54cf"
+source = "git+https://github.com/restitux/druid?branch=psst-hacky-password-support#c453efd642c78cbfd7bc7dca677bd2a559618a59"
 dependencies = [
  "console_error_panic_hook",
  "druid-derive",
@@ -661,7 +661,7 @@ dependencies = [
 [[package]]
 name = "druid-derive"
 version = "0.4.0"
-source = "git+https://github.com/jpochyla/druid?branch=psst#625374b59c3772152045528c4914d3b3be0e54cf"
+source = "git+https://github.com/restitux/druid?branch=psst-hacky-password-support#c453efd642c78cbfd7bc7dca677bd2a559618a59"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -671,7 +671,7 @@ dependencies = [
 [[package]]
 name = "druid-shell"
 version = "0.7.0"
-source = "git+https://github.com/jpochyla/druid?branch=psst#625374b59c3772152045528c4914d3b3be0e54cf"
+source = "git+https://github.com/restitux/druid?branch=psst-hacky-password-support#c453efd642c78cbfd7bc7dca677bd2a559618a59"
 dependencies = [
  "anyhow",
  "bitflags",

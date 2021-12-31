@@ -11,8 +11,8 @@ repository = "https://github.com/jpochyla/psst"
 psst-core = { path = "../psst-core" }
 
 crossbeam-channel = "0.5"
-druid-shell = { git = "https://github.com/jpochyla/druid", branch = "psst", features = ["raw-win-handle"] }
-druid = { git = "https://github.com/jpochyla/druid", branch = "psst", features = ["im", "image", "jpeg", "png", "serde"] }
+druid-shell = { git = "https://github.com/restitux/druid", branch = "psst-hacky-password-support", features = ["raw-win-handle"] }
+druid = { git = "https://github.com/restitux/druid", branch = "psst-hacky-password-support", features = ["im", "image", "jpeg", "png", "serde"] }
 env_logger = "0.9"
 fs_extra = "1.2"
 itertools = "0.10"
